@@ -1,0 +1,83 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "pers.weisg.spring.boot.config.DruidConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "public javax.sql.DataSource druid() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.connectionProperties",
+      "description": "A description for 'spring.datasource.connectionProperties'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.filters",
+      "description": "A description for 'spring.datasource.filters'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.initialSize",
+      "description": "A description for 'spring.datasource.initialSize'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.maxActive",
+      "description": "A description for 'spring.datasource.maxActive'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.maxPoolPreparedStatementPerConnectionSize",
+      "description": "A description for 'spring.datasource.maxPoolPreparedStatementPerConnectionSize'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.maxWait",
+      "description": "A description for 'spring.datasource.maxWait'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.minEvictableIdleTimeMillis",
+      "description": "A description for 'spring.datasource.minEvictableIdleTimeMillis'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.minIdle",
+      "description": "A description for 'spring.datasource.minIdle'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.poolPreparedStatements",
+      "description": "A description for 'spring.datasource.poolPreparedStatements'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.testOnBorrow",
+      "description": "A description for 'spring.datasource.testOnBorrow'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.testOnReturn",
+      "description": "A description for 'spring.datasource.testOnReturn'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.testWhileIdle",
+      "description": "A description for 'spring.datasource.testWhileIdle'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.timeBetweenEvictionRunsMillis",
+      "description": "A description for 'spring.datasource.timeBetweenEvictionRunsMillis'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.validationQuery",
+      "description": "A description for 'spring.datasource.validationQuery'",
+      "type": "java.lang.String"
+    }
+  ]
+}
