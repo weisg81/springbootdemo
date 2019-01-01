@@ -1,7 +1,7 @@
 package pers.weisg.springboot.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pers.weisg.springboot.entity.TUser;
 import pers.weisg.springboot.mapper.TUserMapper;
@@ -17,11 +17,16 @@ import pers.weisg.springboot.service.TUserService;
  */
 @Service
 public class TUserServiceImpl extends ServiceImpl<TUserMapper, TUser> implements TUserService {
+
+    @Autowired
+    private TUserMapper tUserMapper;
     @Override
-    public TUser findUserInfo(String username) {
-        TUser user = new TUser();
+    public TUser findUserInfo(String userId) {
+        //QueryWrapper<TUser> wrapper = new QueryWrapper<>();
+        /*TUser user = new TUser();
         QueryWrapper query = new QueryWrapper<>(user);;
-        this.getOne(query);
-        return null;
+        this.getOne(query);*/
+        //wrapper.lambda().eq(TUser::getId,"");
+        return tUserMapper.selectById(userId);
     }
 }
