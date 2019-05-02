@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /oa
+  port: 8888
+spring:
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://localhost:3306/ACT
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
