@@ -39,7 +39,7 @@
         <mapper.version>4.1.5</mapper.version>
 
         <!-- MySQL驱动版本号 -->
-        <mysql.version>5.1.47</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <mybatis.spring.boot.version>2.0.0</mybatis.spring.boot.version>
         <mapper.spring.boot.version>2.1.5</mapper.spring.boot.version>
         <fastjson.version>1.2.46</fastjson.version>
